@@ -1,0 +1,11 @@
+
+Antes de redactar y crear gráficas y demás, hay que tomar decisiones:
+
+- Probar el otro modelo (cross validation o SVC)
+- Probar de cambiar parámetros de los modelos
+- Probar de dropear columnas con muy mala correlación con la pregunta objetivo 
+- Probar de modificar columnas, de forma que agrupemos respuestas similares en un mismo número
+
+- Puedes hacer que en una misma iteración hagas lo de modeling y evaluating dos veces,
+  una sin aplicar cierta modificación y otra aplicandola, para que se vea el cambio
+- Apartado extra: probar de predecir otra pregunta y hacer red neuronal
