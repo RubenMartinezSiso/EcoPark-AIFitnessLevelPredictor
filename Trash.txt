@@ -1,3 +1,15 @@
+FALTA 
++ Acabar de redactar todo
++ Energia en voltios!!ç
++ Asegurarse de que es un problema de clasificación y lo de quitar outliers tiene sentido
++ Explicar parametros de los modelos
++ Explicar más profundamente, que se entienda, y repasar todo lo redactado (esta hecho a churro)
++ Cambiar accuracys??
++ Limpiar
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
 1. Probar de cambiar parametros del RandomForest
 2. Probar de borrar alguna columna en el RandomForest para ver si sube el accuracy (si es así, probar el los otros modelos)
