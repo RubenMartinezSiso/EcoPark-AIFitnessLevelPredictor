@@ -23,19 +23,25 @@ As discussed above, during AI development there are up to three iterations, in w
 
 The following is a summary of the different treatments of the columns throughout the three iterations executed, depending on the type of question it contains. In the program, the reason for each modification and the results obtained can be seen in greater detail. The dataset we are working with contains three different types of answers:
 
+
 **Open answers**
+
 Open answers are answers that are unique for each user or that are repeated very few times. This is the case for the columns on the name and the Timestamp (date and time at which the answer is recorded in the database).
 
 As this data is practically unique and irrelevant to the user's fitness level, the only treatment applied at each iteration for this type of column is to remove it completely. They are irrelevant to the objective of the project and do not affect the final result at all.
 
+
 **Single answer multiple choice**
+
 These answers consist of choosing one option from all available options and may contain numerical or non-numerical options. For example, one of the questions is "What time of the day do you prefer to exercise?", and the possible answers are "Early morning", "afternoon" or "evening".
 
 In this case, these are the most common columns in the dataset and provide the most information. The most important treatment is to change all possible answers to numerical values. This is because the sklearn library models only work with numbers and cannot process strings. That is why each answer is assigned a number, it doesn't matter what it is as long as it is different from the rest of the answers.
 
 On the other hand, to simplify the answers, it has also been tried to group similar answers in the same numerical value, so there is less dispersion in the data and a better balance is maintained. Finally, we have even tried removing the column altogether to check whether the answers were actually beneficial to the model or only negatively affected the accuracy.
 
+
 **Multiple choice answers**
+
 In these questions, one or several answers can be chosen at the same time, so a single user can have a list of several answers in a row. For example, one of the questions is "What forms of exercise do you currently participate in?", and the possible answers are "Walking or jogging", "gym", "swimming", "yoga", "Zumba dance", "lifting weights", "team sport" or "I don't really exercise".
 
 Although these types of answers could be useful for the development of the model, the fact that they mix options and create a large number of possible combinations of answers makes the column almost unusable and intractable. Therefore, the quickest and most straightforward solution is to remove the column and ignore it in the prediction of answers. Alternatively, a possible and also tested modification is to change all possible combinations of answers that appear by numerical values, grouping those that are similar or closely related to each other. In this way, they can be used in a certain way for the model.
