@@ -1,4 +1,4 @@
-# EcoPark-AIFitnessLevelPredictor 👨‍💻
+# EcoPark | AI Fitness Level Predictor 👨‍💻
 NOTE: This implementation is included in a project carried out at VIA University College.
 
 ## Introduction 🏋️‍♂️💡
