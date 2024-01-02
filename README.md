@@ -1,5 +1,5 @@
 # EcoPark | AI Fitness Level Predictor 👨‍💻
-NOTE: This implementation is included in a project carried out at VIA University College.
+NOTE: This implementation is included in a project carried out at VIA University College (Horsens, Denmark).
 
 ## Introduction 🏋️‍♂️💡
 Nowadays, it is known that sports halls consume a lot of electricity and do not collect energy. In fact, between the machines that need electricity, the lights to light up the gym, the air conditioning systems to ventilate the sports halls... the sports halls require a lot of energy. Moreover, the climate crisis is gathering pace and it is important to do something about it instead of just watching our lives deteriorate drastically in the coming years.
